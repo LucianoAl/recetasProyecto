@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Jaldi&display=swap');
+
+/* RESETEO */
+
+* {
+     margin: 0px;
+     padding: 0px;
+}
+
+/* BODY */
+
+body {
+     background-image: url(../multimedia/images/fondoDos.webp);
+     font-family: 'Jaldi', sans-serif;
+     font-weight: 500;
+     height: 100vh;
+}
+
+/* HEADER */
+
+header {
+     position: absolute;
+     z-index: 100;
+}
+
+nav {
+     background-color: #70706f;
+     height: 110px;
+     width: 100%;
+     position: fixed;
+}
+
+nav ul {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     padding: 30px;
+}
+
+nav ul li {
+     list-style-type: none;
+     color: #131212;
+     font-weight: bolder;
+     font-size: 18px;
+     border: 4px aliceblue solid;
+     width: 120px;
+     height: 40px;
+     border-radius: 5px;
+     text-align: center;
+     background-color: rgba(255, 177, 177, 0.952);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     box-shadow: 5px 5px 45px -5px;
+     margin: 0px 5px 0px 5px;
+}
+
+nav ul li a {
+     text-decoration: none;
+     font-size: 15px;
+     color: #131212;
+     width: 100%;
+     height: 100%;
+     text-align: center;
+     justify-content: center;
+     align-items: center;
+     display: flex;
+}
+
+nav li :hover {
+     background-color: white;
+}
+
+/* MAIN */
+
+
+main {
+     margin: 0px 0px 0px 0px;
+     padding: 155px 8% 49.5px 8%;
+     display: flex;
+     flex-direction: column;
+     z-index: 1;
+}
+
+section {
+     background-color: white;
+     height: auto;
+     width: auto;
+     text-align: center;
+}
+
+.video {
+     width: 70%;
+     height: 500px;
+     object-fit: contain;
+     border-radius: 5px;
+}
+
+.linea{
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+}
+
+.espacioAa{
+ padding: 2.5px 0 0; 
+}
+
+.espacioBb{
+ padding: 0 0 0;
+}
+
+.imagen {
+     width: 70%;
+     height: 55%;
+     object-fit: contain;
+     box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+          0 0 0 2px rgb(255, 255, 255),
+          0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+     border-radius: 5px;
+}
+
+.relleno {
+     padding: 0 0 28px;
+}
+
+.colorr {
+     filter: invert(25%) sepia(97%) saturate(7471%) hue-rotate(358deg) brightness(110%) contrast(113%);
+}
+
+.espacioRecetasA {
+     padding: 5px 0 0;
+}
+
+.espacioRecetasB {
+     padding: 20px 0 15px;
+     text-decoration: underline;
+}
+
+.espacioRecetasC {
+     padding: 15px 0 15px;
+}
+
+.espacioRecetasD {
+     padding: 10px 0 25px;
+}
+
+.espacioRecetasE {
+     padding: 25px 0 0;
+}
+
+.espacioRecetasF {
+     padding: 0 0 25px;
+}
+
+.espacioRecetasG {
+     padding: 0 3px 0;
+}
+
+.espacioRecetasH {
+     padding: 0 0 0 3px;
+}
+
+.espacioIco {
+     object-fit: contain;
+}
+
+.espacioFor {
+     padding: 4.5px 0 0px 7px;
+}
+
+.espacioContactoA {
+     padding: 30px 0 0;
+}
+
+.espacioContactoB {
+     padding: 0 0 15px;
+}
+
+.espacioContactoC {
+     padding: 15px 0 0;
+}
+
+/* FOOTER */
+
+footer {
+     height: 110px;
+     width: 100%;
+     padding: 0px 0px 0px 0px;
+     margin: 0px 0px 0px 0px;
+     text-align: center;
+     background-color: #70706f;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+}
+
+div a {
+     text-decoration: none;
+     padding: 0px 10px 0px 10px;
+}
+
+@media (max-width:590px){
+     .espacioAa{
+          padding: 0px 0 0; 
+         }
+         
+         .espacioBb{
+          padding: 9px 0 0;
+         }
+
+         .video {
+          width: 70%;
+          height: 150px;
+     }
+}
